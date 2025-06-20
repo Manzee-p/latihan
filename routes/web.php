@@ -35,3 +35,10 @@ Route::get('buku', [MyController::class, 'index']);
 Route::get('buku/create', [MyController::class, 'create']);
 Route::post('buku', [MyController::class, 'store']);
 Route::get('buku/{id}', [MyController::class, 'show']);
+Route::get('buku/{id}/edit', [MyController::class, 'edit']);
+Route::post('buku/{id}', [MyController::class, 'update']);
+Route::delete('buku/{id}', [MyController::class, 'destroy']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

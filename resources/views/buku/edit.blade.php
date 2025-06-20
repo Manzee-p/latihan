@@ -6,16 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Tambah Buku</h2>
-    <form action="/buku/{{ $buku[$id]}}" method="post">
+    <h2>Edit Buku</h2>
+    <form action="/buku/{{ $buku['id']}}" method="post">
         @csrf
         <input type="text" name="judul" value="{{ $buku['judul'] }}"><br>
-        <input type="text" name="harga" value="{{ $buku['harga']}}" required><br>
+        <input type="text" name="harga" value="{{ $buku['harga']}}"><br>
         <select name="kategori" id="">
             <option value="">pilih kategori</option>
-            <option value="Self Improvment {{ $buku}}">Self Improvment</option>
-            <option value="Bacaan">Bacaan</option> 
-            <option value="Teknologi">Teknologi</option>
+            <option value="Self Improvment" {{ $buku['kategori'] == 'Self improvment' ? 'selected' :'' }}>Self Improvment</option>
+            <option value="Bacaan" {{ $buku['kategori'] == 'Bacaan' ? 'selected' :'' }}>Bacaan</option> 
+            <option value="Teknologi" {{ $buku['kategori'] == 'Teknologi' ? 'selected' :'' }}>Teknologi</option>
         </select><br>
         <button type="submit">Simpan</button>
         <button type="reset">Reset</button>

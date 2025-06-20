@@ -9,7 +9,7 @@
     <h2>Tambah Buku</h2>
     <form action="/buku" method="post">
         @csrf
-        <input type="text" name="judul" placeholder="masukan juduk" required><br>
+        <input type="text" name="judul" placeholder="masukan judul" required><br>
         <input type="text" name="harga" placeholder="masukan harga" required><br>
         <select name="kategori" id="">
             <option value="">pilih kategori</option>

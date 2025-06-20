@@ -49,4 +49,42 @@ class MyController extends Controller
         return view('buku.show', compact('buku'));
     }
 
+    public function edit($id){
+        $buku = session('data_buku', $this->data);
+        $buku = collect($buku)->firstWhere('id', $id);
+
+        if(! $buku) {
+            abort(404);
+        }
+        return view('buku.edit', compact('buku'));
+    }
+
+    public function update(Request $request, $id){
+        $buku = session('data_buku', $this->data);
+
+        foreach($buku as &$data){
+            if($data['id'] == $id) {
+                $data['judul'] = $request->judul;
+                $data['harga'] = $request->harga;
+                $data['kategori'] = $request->kategori;
+                break;
+            }
+        }
+
+        session(['data_buku' => $buku]);
+
+        return redirect('/buku');
+    }
+
+    public function destroy($id) {
+        $buku = session('data_buku', $this->data);
+
+        $index = array_search($id, array_column($buku, 'id'));
+        array_splice($buku, $index, 1);
+
+        session(['data_buku' => $buku]);
+
+        return redirect('/buku');
+    }
+
 }

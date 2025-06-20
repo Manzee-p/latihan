@@ -25,9 +25,15 @@
             <td>{{$data['harga']}}</td>
             <td>{{$data['kategori']}}</td>
             <td>
-                <a href="buku/{{ $data['id'] }}">show</a>
-                <a href="">Edit</a>
-                <a href="">Delete</a>
+                <form action="buku/{{$data['id']}}" method="post">
+                    <a href="buku/{{ $data['id'] }}">show</a>
+                    <a href="buku/{{ $data['id'] }}/edit">Edit</a>
+                    @csrf 
+                    @method('DELETE')
+                    <button type="submit" onclick="return confirm('apakah anda yakin?')">
+                        DELETE
+                    </button>
+                </form>
             </td>
         </tr>
     @endforeach
