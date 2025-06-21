@@ -17,14 +17,14 @@ class UserSeeder extends Seeder
 
         \App\Models\User::create([
             'name' => 'Admin',
-            'email' => 'admin@gmai.com',
+            'email' => 'admin@gmail.com',
             'password' => bcrypt('rahasia'),
             'isAdmin' => 1,
         ]);
 
         \App\Models\User::create([
-            'name' => 'member',
-            'email' => 'member@gmai.com',
+            'name' => 'Member',
+            'email' => 'member@gmail.com',
             'password' => bcrypt('rahasia'),
             'isAdmin' => 0,
         ]);

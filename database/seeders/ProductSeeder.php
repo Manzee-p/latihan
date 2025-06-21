@@ -22,7 +22,7 @@ class ProductSeeder extends Seeder
             'description' => 'Lorem Ipsum',
             'price' => 75000,
             'stock' => 100,
-            'image' => 'image.png'
+            'image' => 'image.png',
         ]);
 
         \App\Models\Product::create([
@@ -32,7 +32,7 @@ class ProductSeeder extends Seeder
             'description' => 'Lorem Ipsum',
             'price' => 1750000,
             'stock' => 100,
-            'image' => 'image.png'
+            'image' => 'image.png',
         ]);
     }
 }
