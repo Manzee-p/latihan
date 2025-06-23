@@ -1,9 +1,12 @@
 <?php
 
+use App\Http\Controllers\Backend\CategoryController;
+use App\Http\Controllers\Backend\ProductController;
 use App\Http\Controllers\BackendController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MyController;
 use App\Http\Middleware\Admin;
+use App\Models\Category;
 use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
@@ -48,4 +51,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth', Admin::class]], function() {
     Route::get('/', [BackendController::class, 'index']); 
+
+    Route::resource('/category', CategoryController::class);
+
+    Route::resource('/product', ProductController::class);
 });

@@ -112,120 +112,120 @@
                 <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
                 <span class="hide-menu">Apps</span>
               </li>
-              <li class="sidebar-item">
-                <a class="sidebar-link two-column has-arrow" href="javascript:void(0)" aria-expanded="false">
-                  <span>
-                    <i class="ti ti-archive"></i>
-                  </span>
-                  <span class="hide-menu">Apps</span>
-                </a>
-                <ul aria-expanded="false" class="collapse first-level">
-                  <li class="sidebar-item">
-                    <a href="./main/app-calendar.html" class="sidebar-link">
-                      <i class="ti ti-calendar"></i>
-                      <span class="hide-menu">Calendar</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/app-kanban.html" class="sidebar-link">
-                      <i class="ti ti-layout-kanban"></i>
-                      <span class="hide-menu">Kanban</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/app-chat.html" class="sidebar-link">
-                      <i class="ti ti-message-dots"></i>
-                      <span class="hide-menu">Chat</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a class="sidebar-link" href="./main/app-email.html" aria-expanded="false">
-                      <span>
-                        <i class="ti ti-mail"></i>
-                      </span>
-                      <span class="hide-menu">Email</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/app-contact.html" class="sidebar-link">
-                      <i class="ti ti-phone"></i>
-                      <span class="hide-menu">Contact Table</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/app-contact2.html" class="sidebar-link">
-                      <i class="ti ti-list-details"></i>
-                      <span class="hide-menu">Contact List</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/app-notes.html" class="sidebar-link">
-                      <i class="ti ti-notes"></i>
-                      <span class="hide-menu">Notes</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/app-invoice.html" class="sidebar-link">
-                      <i class="ti ti-file-text"></i>
-                      <span class="hide-menu">Invoice</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/page-user-profile.html" class="sidebar-link">
-                      <i class="ti ti-user-circle"></i>
-                      <span class="hide-menu">User Profile</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/blog-posts.html" class="sidebar-link">
-                      <i class="ti ti-article"></i>
-                      <span class="hide-menu">Posts</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/blog-detail.html" class="sidebar-link">
-                      <i class="ti ti-details"></i>
-                      <span class="hide-menu">Detail</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/eco-shop.html" class="sidebar-link">
-                      <i class="ti ti-shopping-cart"></i>
-                      <span class="hide-menu">Shop</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/eco-shop-detail.html" class="sidebar-link">
-                      <i class="ti ti-basket"></i>
-                      <span class="hide-menu">Shop Detail</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/eco-product-list.html" class="sidebar-link">
-                      <i class="ti ti-list-check"></i>
-                      <span class="hide-menu">List</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="./main/eco-checkout.html" class="sidebar-link">
-                      <i class="ti ti-brand-shopee"></i>
-                      <span class="hide-menu">Checkout</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a class="sidebar-link" href="./main/eco-add-product.html">
-                      <i class="ti ti-file-plus"></i>
-                      <span class="hide-menu">Add Product</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a class="sidebar-link" href="./main/eco-edit-product.html">
-                      <i class="ti ti-file-pencil"></i>
-                      <span class="hide-menu">Edit Product</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link two-column has-arrow" href="javascript:void(0)" aria-expanded="false">
+                    <span>
+                      <i class="ti ti-archive"></i>
+                    </span>
+                    <span class="hide-menu">Apps</span>
+                  </a>
+                  <ul aria-expanded="false" class="collapse first-level">
+                    <li class="sidebar-item">
+                      <a href="./main/app-calendar.html" class="sidebar-link">
+                        <i class="ti ti-calendar"></i>
+                        <span class="hide-menu">Calendar</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/app-kanban.html" class="sidebar-link">
+                        <i class="ti ti-layout-kanban"></i>
+                        <span class="hide-menu">Kanban</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/app-chat.html" class="sidebar-link">
+                        <i class="ti ti-message-dots"></i>
+                        <span class="hide-menu">Chat</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-link" href="./main/app-email.html" aria-expanded="false">
+                        <span>
+                          <i class="ti ti-mail"></i>
+                        </span>
+                        <span class="hide-menu">Email</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/app-contact.html" class="sidebar-link">
+                        <i class="ti ti-phone"></i>
+                        <span class="hide-menu">Contact Table</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/app-contact2.html" class="sidebar-link">
+                        <i class="ti ti-list-details"></i>
+                        <span class="hide-menu">Contact List</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/app-notes.html" class="sidebar-link">
+                        <i class="ti ti-notes"></i>
+                        <span class="hide-menu">Notes</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/app-invoice.html" class="sidebar-link">
+                        <i class="ti ti-file-text"></i>
+                        <span class="hide-menu">Invoice</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/page-user-profile.html" class="sidebar-link">
+                        <i class="ti ti-user-circle"></i>
+                        <span class="hide-menu">User Profile</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/blog-posts.html" class="sidebar-link">
+                        <i class="ti ti-article"></i>
+                        <span class="hide-menu">Posts</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/blog-detail.html" class="sidebar-link">
+                        <i class="ti ti-details"></i>
+                        <span class="hide-menu">Detail</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/eco-shop.html" class="sidebar-link">
+                        <i class="ti ti-shopping-cart"></i>
+                        <span class="hide-menu">Shop</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/eco-shop-detail.html" class="sidebar-link">
+                        <i class="ti ti-basket"></i>
+                        <span class="hide-menu">Shop Detail</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/eco-product-list.html" class="sidebar-link">
+                        <i class="ti ti-list-check"></i>
+                        <span class="hide-menu">List</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a href="./main/eco-checkout.html" class="sidebar-link">
+                        <i class="ti ti-brand-shopee"></i>
+                        <span class="hide-menu">Checkout</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-link" href="./main/eco-add-product.html">
+                        <i class="ti ti-file-plus"></i>
+                        <span class="hide-menu">Add Product</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-link" href="./main/eco-edit-product.html">
+                        <i class="ti ti-file-pencil"></i>
+                        <span class="hide-menu">Edit Product</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
 
               <!-- ============================= -->
               <!-- Frontend pages -->
@@ -1156,6 +1156,7 @@
   <script src="{{asset('assets/backend/libs/owl.carousel/dist/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/backend/libs/apexcharts/dist/apexcharts.min.js')}}"></script>
   <script src="{{asset('assets/backend/js/dashboards/dashboard.js')}}"></script>
+  @include('sweetalert::alert')
   @yield('js')
   @stack('scripts')
 </body>

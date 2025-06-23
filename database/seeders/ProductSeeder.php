@@ -23,7 +23,7 @@ class ProductSeeder extends Seeder
             'price' => 75000,
             'stock' => 100,
             'image' => 'image.png',
-        ]);
+        ]); 
 
         \App\Models\Product::create([
             'category_id' => '2',
